@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.wheel-container {
+  @apply relative w-[300px] h-[300px] rounded-full border-4 border-black overflow-hidden;
+}
+
+.wheel-item {
+  @apply absolute top-[50%] left-[50%] origin-[0_0] text-center;
+}
